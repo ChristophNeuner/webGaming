@@ -1,0 +1,17 @@
+﻿@{ 
+    ViewData["Title"] = "Login";
+}
+@model LoginViewModel
+
+<div class="bg-primary panel-body"><h4>Log In</h4></div>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form method="post" asp-controller="Account" asp-action="Login">
+    <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control"/>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control"/>
+    <button type="submit" class="btn btn-primary">Log in</button>
+</form>

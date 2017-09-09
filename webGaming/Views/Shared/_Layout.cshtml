@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Christoph Neuner" />
+    <title>@ViewData["Title"] - Web Gaming</title>   
+    <link rel="shortcut icon" href="~/RollBall/TemplateData/favicon.ico" />
+    <link rel="stylesheet" asp-href-include="~/RollBall/TemplateData/style.css">
+    <link rel="stylesheet" asp-href-include="~/lib/bootstrap/dist/css/*.min.css" />
+</head>
+<body>
+    <a class="btn navbar-btn" asp-controller="Home" asp-action="Index">Home</a>
+    <a class="btn navbar-btn" asp-controller="Admin" asp-action="Index">Admin</a>
+    <a class="btn navbar-btn" asp-controller="RoleAdmin" asp-action="Index">RoleAdmin</a>
+    @if (!User?.Identity?.IsAuthenticated ?? false)
+    {
+        <a class="btn navbar-btn" asp-controller="Account" asp-action="Login">Login</a>
+    }
+    @if (User?.Identity?.IsAuthenticated ?? false)
+    {
+        <a class="btn navbar-btn" asp-controller="Account" asp-action="Logout">Logout</a>
+    }
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
+<script asp-src-include="~/lib/jquery/dist/*.min.js"></script>
+<script asp-src-include="~/lib/bootstrap/dist/js/*.min.js"></script>
