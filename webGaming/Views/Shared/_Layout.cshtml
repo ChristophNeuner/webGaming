@@ -7,7 +7,7 @@
     <title>@ViewData["Title"] - Web Gaming</title>   
     <link rel="shortcut icon" href="~/RollBall/TemplateData/favicon.ico" />
     <link rel="stylesheet" asp-href-include="~/RollBall/TemplateData/style.css">
-    <link rel="stylesheet" asp-href-include="~/lib/bootstrap/dist/css/*.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
     <a class="btn navbar-btn" asp-controller="Home" asp-action="Index">Home</a>
@@ -26,5 +26,7 @@
     </div>
 </body>
 </html>
-<script asp-src-include="~/lib/jquery/dist/*.min.js"></script>
-<script asp-src-include="~/lib/bootstrap/dist/js/*.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

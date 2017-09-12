@@ -2,9 +2,10 @@ D:\FAUbox\Projects\webGaming\webGaming\bin\Debug\netcoreapp2.0\webGaming.deps.js
 D:\FAUbox\Projects\webGaming\webGaming\bin\Debug\netcoreapp2.0\webGaming.runtimeconfig.json
 D:\FAUbox\Projects\webGaming\webGaming\bin\Debug\netcoreapp2.0\webGaming.runtimeconfig.dev.json
 D:\FAUbox\Projects\webGaming\webGaming\bin\Debug\netcoreapp2.0\webGaming.dll
+D:\FAUbox\Projects\webGaming\webGaming\bin\Debug\netcoreapp2.0\webGaming.pdb
+D:\FAUbox\Projects\webGaming\webGaming\obj\Debug\netcoreapp2.0\webGaming.csprojResolveAssemblyReference.cache
 D:\FAUbox\Projects\webGaming\webGaming\obj\Debug\netcoreapp2.0\webGaming.csproj.CoreCompileInputs.cache
 D:\FAUbox\Projects\webGaming\webGaming\obj\Debug\netcoreapp2.0\webGaming.AssemblyInfoInputs.cache
 D:\FAUbox\Projects\webGaming\webGaming\obj\Debug\netcoreapp2.0\webGaming.AssemblyInfo.cs
-D:\FAUbox\Projects\webGaming\webGaming\bin\Debug\netcoreapp2.0\webGaming.pdb
 D:\FAUbox\Projects\webGaming\webGaming\obj\Debug\netcoreapp2.0\webGaming.dll
 D:\FAUbox\Projects\webGaming\webGaming\obj\Debug\netcoreapp2.0\webGaming.pdb

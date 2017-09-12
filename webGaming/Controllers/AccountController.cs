@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace webGaming.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admins")]
     public class AccountController : Controller
     {
         private UserManager<AppUser> userManager;
